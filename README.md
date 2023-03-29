@@ -106,3 +106,6 @@ Number 1: ---plane types stored in a particular hanger
 select hanger.Number as Hanger_Number,plane_model,hanger.location from airplane,hanger where plane_hanger=hanger.Number order by hanger.Number     
 Number 2: --planes which are abaondoned/no owners
  select reg_no,plane_hanger,plane_model from AIRPLANE where Reg_no not in (select registration from owns)  
+ ![Q25](https://user-images.githubusercontent.com/110912144/228639594-8ac018e4-c8e4-4ff1-8853-ef70199fa393.png)
+
+ 
