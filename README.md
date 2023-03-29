@@ -11,11 +11,14 @@ Now every plane has a owner so the airplane is related to owner class by a relat
 ![relational_model](https://user-images.githubusercontent.com/110912144/228616078-0411677d-10b2-44bf-9b0c-5ee639fde7d2.png)
 # QUERY 3: 
  Implementation was done as from maintainance table I extracted the service code of the maintainence and matched it with the workcode of the service table . As I had stored the plane id in service class so now I have airplane who have gone maintainence so I left joined it with the airplane table to get the planes who never got any maintainence.
+ ![query3](https://user-images.githubusercontent.com/110912144/228634274-d3767c8b-6a89-4852-9caf-d08d470b5838.png)
 # QUERY 4:
 Implementation was done as in subquery(from plane_model table) I got the model which had 200 +  capacity and outer subquery(from airplane table) which then extracted the plane id with 200 plus capacity.Now in main query I Extracted the name,location from corporation and its plane_reg number 
-Which is id of plane purchased must be present in result of the 2 sub queries .
+Which is id of plane purchased must be present in result of the 2 sub queries.
+![query4](https://user-images.githubusercontent.com/110912144/228634456-55d002d0-be59-40f4-978e-aae986d3a852.png)
 # Query 5 :
 Implementation was done as AVG(salary) was selected from person class(person class stores all three subclasses attributes (pilot,owner,employye)) where shift was N(night)
+![query5](https://user-images.githubusercontent.com/110912144/228634861-aec2b8d2-7867-4067-bd7e-4434c308fea7.png)
 # Query 6 :
 Implemenation was done like  from maintainence class I got the person id who did the maintainenece. So I extracted the employees who have done the maintainence from the person class. I summed each total hours of each employee and grouped by employee name and ordered by sum of hours so all tuples came of employee name with total hours worked in descending order so I extracted the first 5 tuples by top command.
 
@@ -25,6 +28,7 @@ Implementation was done like from maintainence the work code was extracted and t
 Implemenatation was done as through owns entity I got both the owners the corporation and person. Both have their seperate date I applied the date add function to get the tuples only with date within last month and I UNION both the person and corporation queries.
 # QUERY 9:
 Implemenatation was done as I counted registration numbers of airplanes that had the same pilot by match flies id with person id(pilot) and then I grouped it by name of pilot
+
 # QUERY 10:
 Implementation was done like I selected that hanger which had max capacity . I used max as subquery.
 # QUERY 11:
