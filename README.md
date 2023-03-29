@@ -1,4 +1,4 @@
-# This is Database A2.
+Database A2.
 # Musaddiq Ashfaq - 21i-2558
 # Muhammad Hamza - 21i-0869
 ERD
