@@ -61,6 +61,7 @@ Implementation was done like I matched service and maintainence to get airplanes
 Implementation was done like I created 2 views v12 and v13, v12 tells about names of employee extracted using corporation. It extracts the maintainence and then matches it with airplane and works on to show that the model is not be worked on by that employye
 v13 tells about names of employee extracted using person. It extracts the maintainence and then matches it with airplane and works on to show that the model is not be worked on by that employye
 In the end I take union of both views
+
 ![QUERY13](https://user-images.githubusercontent.com/110912144/228636626-e4f9ff08-687f-4424-936e-fdfeb7c58e7c.png)
 
 # Query 14 :
