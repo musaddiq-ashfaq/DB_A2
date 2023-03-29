@@ -25,6 +25,7 @@ Implementation was done as AVG(salary) was selected from person class(person cla
 ![query5](https://user-images.githubusercontent.com/110912144/228634861-aec2b8d2-7867-4067-bd7e-4434c308fea7.png)
 # Query 6 :
 Implemenation was done like  from maintainence class I got the person id who did the maintainenece. So I extracted the employees who have done the maintainence from the person class. I summed each total hours of each employee and grouped by employee name and ordered by sum of hours so all tuples came of employee name with total hours worked in descending order so I extracted the first 5 tuples by top command.
+
 ![QUERY6](https://user-images.githubusercontent.com/110912144/228635257-fa7ce597-249d-4e59-b10a-ef8d301b908a.png)
 
 
