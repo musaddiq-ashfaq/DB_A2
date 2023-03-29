@@ -1,0 +1,1 @@
+select count(reg_no)as Number_of_Planes,plane_model as Plane_Type from Airplane group by plane_model

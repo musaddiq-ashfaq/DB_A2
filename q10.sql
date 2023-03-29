@@ -1,0 +1,1 @@
+select number,capacity,location from hanger where capacity in (select max(capacity)from hanger)
