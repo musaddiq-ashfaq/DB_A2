@@ -1,5 +1,5 @@
 #                                                                           Database A2
-#Musaddiq Ashfaq - 21i-2558                                                Muhammad Hamza - 21i-0869
+#Musaddiq Ashfaq - 21i-2558                                               #Muhammad Hamza - 21i-0869
 #ERD
 ![erd](https://user-images.githubusercontent.com/110912144/228615993-f52b9cac-67e3-475d-b767-ee9a06c98ce3.jpg)
 Relational Model
